@@ -6,9 +6,6 @@ ifeq ($(strip $(TARGET_BOARD_PLATFORM_VARIANT)),archos)
 
 ifeq ($(ENHANCED_DOMX),true)
 
-    # DOMX not used in OMAP3 program
-    ifneq ($(TARGET_BOARD_PLATFORM),omap3)
-
         LOCAL_PATH:= $(call my-dir)
         HARDWARE_TI_OMAP4_BASE:= $(LOCAL_PATH)/../omap4xxx-archos
         OMAP4_DEBUG_MEMLEAK:= false
@@ -40,7 +37,6 @@ ifeq ($(ENHANCED_DOMX),true)
         endif
 
         include $(call first-makefiles-under,$(LOCAL_PATH))
-    endif # ifeq ($(TARGET_BOARD_PLATFORM),omap4)
 
 endif #ifeq ($(ENHANCED_DOMX),true)
 endif 
