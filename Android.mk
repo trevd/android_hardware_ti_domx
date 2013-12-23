@@ -1,8 +1,8 @@
 #DOMX is not supported on J6 yet. Supported only on omap4 and omap5
-ifeq ($(TARGET_BOARD_PLATFORM), $(filter $(TARGET_BOARD_PLATFORM), omap4 omap5))
+ifeq ($(TARGET_BOARD_PLATFORM),omap4)
 
 # only use the archos omap4 modules if variant is declared
-ifeq ($(strip $(TARGET_BOARD_PLATFORM_VARIANT)),archos)
+ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),archos)
 
 ifeq ($(ENHANCED_DOMX),true)
 
