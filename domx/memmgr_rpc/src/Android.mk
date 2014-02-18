@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES:= \
 	memmgr_rpc.c
-
+LOCAL_CLANG:=true
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../inc \
 	$(LOCAL_PATH)/../../ \

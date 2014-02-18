@@ -1,7 +1,7 @@
 LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
-
+LOCAL_CLANG:=true
 LOCAL_SRC_FILES:= \
     omx_rpc/src/omx_rpc.c \
     omx_rpc/src/omx_rpc_skel.c \

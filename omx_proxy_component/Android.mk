@@ -13,7 +13,7 @@ endif
 #
 
 include $(CLEAR_VARS)
-
+LOCAL_CLANG:=true
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../omx_core/inc \
 	$(LOCAL_PATH)/../mm_osal/inc \
@@ -53,7 +53,7 @@ include $(BUILD_HEAPTRACKED_SHARED_LIBRARY)
 #
 
 include $(CLEAR_VARS)
-
+LOCAL_CLANG:=true
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../omx_core/inc \
 	$(LOCAL_PATH)/../mm_osal/inc \
@@ -83,7 +83,7 @@ include $(BUILD_HEAPTRACKED_SHARED_LIBRARY)
 #
 
 include $(CLEAR_VARS)
-
+LOCAL_CLANG:=true
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../omx_core/inc \
 	$(LOCAL_PATH)/../mm_osal/inc \
@@ -117,7 +117,7 @@ include $(BUILD_HEAPTRACKED_SHARED_LIBRARY)
 #
 
 include $(CLEAR_VARS)
-
+LOCAL_CLANG:=true
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../omx_core/inc \
 	$(LOCAL_PATH)/../mm_osal/inc \
@@ -154,7 +154,7 @@ include $(BUILD_HEAPTRACKED_SHARED_LIBRARY)
 #
 
 include $(CLEAR_VARS)
-
+LOCAL_CLANG:=true
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../omx_core/inc \
 	$(LOCAL_PATH)/../mm_osal/inc \
@@ -191,7 +191,7 @@ include $(BUILD_HEAPTRACKED_SHARED_LIBRARY)
 #
 
 include $(CLEAR_VARS)
-
+LOCAL_CLANG:=true
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../omx_core/inc \
 	$(LOCAL_PATH)/../mm_osal/inc \
